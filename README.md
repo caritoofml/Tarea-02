@@ -10,11 +10,11 @@ Desde una mirada interpretativa, los programas no solo ejecutan instrucciones, s
 
 ### Problema 1: Clasificador de temperatura
 
-Se recorre un rango de temperaturas desde -30 hasta 50 grados, clasificando cada valor como "Muy frío", "Templado" o "Caluroso".
+Se recorre un rango de temperaturas desde -30 hasta 50 grados, clasificando cada valor como "Muy frío", "Templado" o "Caluroso" segun el valor correspondiente.
 
 ### Problema 2: Números especiales del robot
 
-Se analizan números del 1 al 100 para identificar aquellos divisibles por 5, destacando con "Bip Bip" los que también son divisibles por 10.
+Se analizan números del 1 al 100 para identificar aquellos divisibles por 5 entregando como indicador un "Bip", destacando con "Bip Bip" los que también son divisibles por 10.
 
 ### Problema 3: Detector de puntaje gamer
 
@@ -22,7 +22,7 @@ Se ingresan dos puntajes por parte del usuario, los cuales se suman para determi
 
 ### Problema 4: Calculador de perfil musical
 
-Se evalúa el perfil de una persona según su edad y preferencias (música y baile), generando una clasificación basada en su comportamiento.
+Se evalúa el perfil de una persona según su edad y preferencias acerca de música y baile, generando una clasificación basada en su comportamiento.
 
 
 ## Contenidos aplicados
@@ -31,6 +31,7 @@ Se evalúa el perfil de una persona según su edad y preferencias (música y bai
 * Condicionales (`if`, `elif`, `else`)
 * Ciclos (`for`)
 * Operadores lógicos (`and`, `not`)
+* Procesamiento de entrada (`.lower()`)
 * Entrada de datos con `input()`
 * Procesamiento de información
 
